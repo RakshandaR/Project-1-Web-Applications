@@ -85,7 +85,7 @@ include your name as the author.  Figure 2 shows the states drop-down box.
 ![Figure 1](https://github.com/CMU-Heinz-95702/Project-1-Web-Applications/blob/master/figure1.png)
 *Figure 1*
 
-![Figure 2](https://github.com/CMU-Heinz-95702/Project-1-Web-Applications/blob/masterfigure2.png)
+![Figure 2](https://github.com/CMU-Heinz-95702/Project-1-Web-Applications/blob/master/figure2.png)
 *Figure 2*
 
 On the same page, use a drop-down box containing these four COVID-19 statistics,
