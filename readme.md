@@ -83,10 +83,10 @@ URL for the flag chosen from a drop-down box of state names (see the file
 include your name as the author.  Figure 2 shows the states drop-down box.
 
 ![Figure 1](https://github.com/CMU-Heinz-95702/Project-1-Web-Applications/blob/master/figure1.png)
-*Figure 1*
+***Figure 1***
 
 ![Figure 2](https://github.com/CMU-Heinz-95702/Project-1-Web-Applications/blob/master/figure2.png)
-*Figure 2*
+***Figure 2***
 
 On the same page, use a drop-down box containing these four COVID-19 statistics,
 shown here with their API-specific names. See Figure 3.
@@ -97,13 +97,13 @@ shown here with their API-specific names. See Figure 3.
     Cumulative Hospitalized ("hospitalizedCumulative")
 
 ![Figure 3](https://github.com/CMU-Heinz-95702/Project-1-Web-Applications/blob/master/figure3.png)
-*Figure 3*
+***Figure 3***
 
 Finally, get a starting date and an ending date to get a date range for the
 COVID-19 statistic. See Figure 4.
 
 ![Figure 4](https://github.com/CMU-Heinz-95702/Project-1-Web-Applications/blob/master/figure4.png)
-*Figure 5*
+***Figure 4***
 
 Use the covidtracking.com API at:
 
@@ -165,7 +165,7 @@ the state name, the statistic chosen, the starting value for the statistic, the
 ending value, and the difference.
 
 ![Figure 5](https://github.com/CMU-Heinz-95702/Project-1-Web-Applications/blob/master/figure5.png)
-*Figure 5*
+***Figure 5***
 
 When the user presses the "Continue" button, return to the original screen.
 
@@ -285,7 +285,7 @@ similar to Figure 6.  You can make it more stylish if you like,
 but it is not required.
 
 ![Figure 6](https://github.com/CMU-Heinz-95702/Project-1-Web-Applications/blob/master/figure6.png)
-*Figure 6*
+***Figure 6***
 
 When the user makes a choice and hits “submit”, their answer should be stored in
 your MVC model.  The response should be similar to the picture on the left.
@@ -296,14 +296,14 @@ The user should also have the ability to submit another answer as shown in the
 screenshot.
 
 ![Figure 7](https://github.com/CMU-Heinz-95702/Project-1-Web-Applications/blob/master/figure7.png)
-*Figure 7*
+***Figure 7***
 
 You can test the application by repeatedly submitting answers and allowing your
 model to tally the results.  Your web app should also have a URL path
 “/getResults” (shown in Figure 8) for listing the results of user voting.
 
 ![Figure 8](https://github.com/CMU-Heinz-95702/Project-1-Web-Applications/blob/master/figure8.png)
-*Figure 8*
+***Figure 8***
 
 ## Requirements for the /getResults path:
 
@@ -314,14 +314,14 @@ model to tally the results.  Your web app should also have a URL path
 5. If there are no results available, then report this as shown in Figure 9.
 
 ![Figure 9](https://github.com/CMU-Heinz-95702/Project-1-Web-Applications/blob/master/figure9.png)
-*Figure 9*
+***Figure 9***
 
 Note that requirement 4 does not adhere to the HTTP standard for a GET request.
 You should understand why this is bad behavior according to the standard, and
 how you could fix it (It might be on the exam).
 
 ![Figure 10](https://github.com/CMU-Heinz-95702/Project-1-Web-Applications/blob/master/figure10.png)
-*Figure 10*
+***Figure 10***
 
 The web app should work with a mobile browser.  For this project you can use a simple 
 check like the one that was used in InterestingPicture and then use an appropriate mobile doctype.
@@ -341,7 +341,7 @@ Figure 11 is what the web app should look like for mobile if the
 doctype is set correctly.
 
 ![Figure 11](https://github.com/CMU-Heinz-95702/Project-1-Web-Applications/blob/master/figure11.png)
-*Figure 11*
+***Figure 11***
 
 ## Overall web app requirements:
 - You must use MVC to separate concerns.
