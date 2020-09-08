@@ -82,10 +82,10 @@ URL for the flag chosen from a drop-down box of state names (see the file
 "states.txt" for a list of U.S. state names and their abbreviations). Be sure to
 include your name as the author.  Figure 2 shows the states drop-down box.
 
-![Figure 1](https://github.com/CMU-Heinz-95702/Project-1-Web-Applications/figure1.png)
+![Figure 1](https://github.com/CMU-Heinz-95702/Project-1-Web-Applications/blob/master/figure1.png)
 *Figure 1*
 
-![Figure 2](https://github.com/CMU-Heinz-95702/Project-1-Web-Applications/figure2.png)
+![Figure 2](https://github.com/CMU-Heinz-95702/Project-1-Web-Applications/blob/masterfigure2.png)
 *Figure 2*
 
 On the same page, use a drop-down box containing these four COVID-19 statistics,
@@ -96,13 +96,13 @@ shown here with their API-specific names. See Figure 3.
     Currently Hospitalized ("hospitalizedCurrently")
     Cumulative Hospitalized ("hospitalizedCumulative")
 
-![Figure 3](https://github.com/CMU-Heinz-95702/Project-1-Web-Applications/figure3.png)
+![Figure 3](https://github.com/CMU-Heinz-95702/Project-1-Web-Applications/blob/master/figure3.png)
 *Figure 3*
 
 Finally, get a starting date and an ending date to get a date range for the
 COVID-19 statistic. See Figure 4.
 
-![Figure 4](https://github.com/CMU-Heinz-95702/Project-1-Web-Applications/figure4.png)
+![Figure 4](https://github.com/CMU-Heinz-95702/Project-1-Web-Applications/blob/master/figure4.png)
 *Figure 5*
 
 Use the covidtracking.com API at:
@@ -164,7 +164,7 @@ Figure 5 shows sample output: show the flag, the credit string (required),
 the state name, the statistic chosen, the starting value for the statistic, the
 ending value, and the difference.
 
-![Figure 5](https://github.com/CMU-Heinz-95702/Project-1-Web-Applications/figure5.png)
+![Figure 5](https://github.com/CMU-Heinz-95702/Project-1-Web-Applications/blob/master/figure5.png)
 *Figure 5*
 
 When the user presses the "Continue" button, return to the original screen.
@@ -284,7 +284,7 @@ results of the submitted responses.  The welcome page for your app should be
 similar to Figure 6.  You can make it more stylish if you like,
 but it is not required.
 
-![Figure 6](https://github.com/CMU-Heinz-95702/Project-1-Web-Applications/figure6.png)
+![Figure 6](https://github.com/CMU-Heinz-95702/Project-1-Web-Applications/blob/master/figure6.png)
 *Figure 6*
 
 When the user makes a choice and hits “submit”, their answer should be stored in
@@ -295,14 +295,14 @@ that they made (i.e. “D” in this example).
 The user should also have the ability to submit another answer as shown in the
 screenshot.
 
-![Figure 7](https://github.com/CMU-Heinz-95702/Project-1-Web-Applications/figure7.png)
+![Figure 7](https://github.com/CMU-Heinz-95702/Project-1-Web-Applications/blob/master/figure7.png)
 *Figure 7*
 
 You can test the application by repeatedly submitting answers and allowing your
 model to tally the results.  Your web app should also have a URL path
 “/getResults” (shown in Figure 8) for listing the results of user voting.
 
-![Figure 8](https://github.com/CMU-Heinz-95702/Project-1-Web-Applications/figure8.png)
+![Figure 8](https://github.com/CMU-Heinz-95702/Project-1-Web-Applications/blob/master/figure8.png)
 *Figure 8*
 
 ## Requirements for the /getResults path:
@@ -313,14 +313,14 @@ model to tally the results.  Your web app should also have a URL path
 4. /getResults should also clear the stored results so that a new question can be posed.
 5. If there are no results available, then report this as shown in Figure 9.
 
-![Figure 9](https://github.com/CMU-Heinz-95702/Project-1-Web-Applications/figure9.png)
+![Figure 9](https://github.com/CMU-Heinz-95702/Project-1-Web-Applications/blob/master/figure9.png)
 *Figure 9*
 
 Note that requirement 4 does not adhere to the HTTP standard for a GET request.
 You should understand why this is bad behavior according to the standard, and
 how you could fix it (It might be on the exam).
 
-![Figure 10](https://github.com/CMU-Heinz-95702/Project-1-Web-Applications/figure10.png)
+![Figure 10](https://github.com/CMU-Heinz-95702/Project-1-Web-Applications/blob/master/figure10.png)
 *Figure 10*
 
 The web app should work with a mobile browser.  For this project you can use a simple 
@@ -340,7 +340,7 @@ Using the Google Chrome browser.
 Figure 11 is what the web app should look like for mobile if the 
 doctype is set correctly.
 
-![Figure 11](https://github.com/CMU-Heinz-95702/Project-1-Web-Applications/figure11.png)
+![Figure 11](https://github.com/CMU-Heinz-95702/Project-1-Web-Applications/blob/master/figure11.png)
 *Figure 11*
 
 ## Overall web app requirements:
@@ -424,16 +424,16 @@ work. (If you upload your video to YouTube, make sure your video is selected as
 
 Now you should have for .zip files and three description folders:
 
-![Mac OS](https://github.com/CMU-Heinz-95702/Project-1-Web-Applications/figure12.png)
+![Mac OS](https://github.com/CMU-Heinz-95702/Project-1-Web-Applications/blob/master/figure12.png)
 *Mac OS*
 
 Create a new empty folder named with your Andrew id (very important). Put all
 files mentioned above in to the new folder you created. 
 
-![Windows 10](https://github.com/CMU-Heinz-95702/Project-1-Web-Applications/figure13.png)
+![Windows 10](https://github.com/CMU-Heinz-95702/Project-1-Web-Applications/blob/master/figure13.png)
 *Windows 10*
 
-![Mac OS](https://github.com/CMU-Heinz-95702/Project-1-Web-Applications/figure14.png)
+![Mac OS](https://github.com/CMU-Heinz-95702/Project-1-Web-Applications/blob/master/figure14.png)
 *Mac OS*
 
 Zip that folder, and submit it to Canvas. The submission should be a single zip file.
@@ -448,7 +448,7 @@ YourAndrewID.zip
 --- Project1Task2 Description
 --- Project1Task3 Description
 
-![Zip](https://github.com/CMU-Heinz-95702/Project-1-Web-Applications/figure15.png)
+![Zip](https://github.com/CMU-Heinz-95702/Project-1-Web-Applications/blob/master/figure15.png)
 *Zip*
 
 
