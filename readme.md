@@ -122,12 +122,12 @@ The API call will return a set of labels and
 the corresponding data. To access the API, first create a URL object with the
 constructed URL string as a parameter to the URL constructor. Wrap the URL
 object's openStream( ) inside a Scanner object (similar to wrapping System.in).
-The call nextLine( ) **twice** - once to get the labels as a CSV string, and again
+Then call nextLine( ) **twice** - once to get the labels as a CSV string, and again
 to get the data as another CSV string.
 
 Download the CovidData class, which is a simple convience class for storing the
 labels and corresponding data. The class has a constructor that takes two
-strings as parameters, the String[] labels and the String[] data.
+strings arrays as parameters, the String[] labels and the String[] data.
 This class stores a Map of the labels and data (as strings, not in numeric form)
 for access using its method String getItem(String) method. That is, after you
 store the labels and data, you can look up, say,
@@ -138,7 +138,7 @@ data, but you'll only be using the four above.
 ## About the Dates
 You can use the HTML <input type="date" ... > tag to format the dates. 
 That's how the sample screen was created.
-** Note: The type="date" does not work in Safari or Explorer. **
+***Note: The type="date" does not work in Safari or Explorer.***
 
 The input tag with type="date" will return a date using the format yyyy-mm-dd,
 that is, not quite what you need for the API.  The date tag can set a min date;
@@ -216,7 +216,7 @@ jsoup API to understand this when you need it.)
 If you do not use jsoup, here is a code to replace the fetch method in
 InterestingPictureModel to ignore the exception:
 
-    Joe's code here
+    https://gist.github.com/joemertz/d4336933c1902de66af5f27a45dd1ab0
 
 Track Piazza for additional hints and answers to questions.
 
