@@ -215,7 +215,6 @@ jsoup API to understand this when you need it.)
 
 If you do not use jsoup, here is a code to replace the fetch method in
 InterestingPictureModel to ignore the exception:
-
     https://gist.github.com/joemertz/d4336933c1902de66af5f27a45dd1ab0
 
 Track Piazza for additional hints and answers to questions.
