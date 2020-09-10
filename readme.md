@@ -200,7 +200,7 @@ There are better ways to adapt to mobile form-factor, but you can use this:
 - You do not need to, but you are welcome to, use jsoup (https://jsoup.org/)
   which is a Java HTML Parser, to do the flag scraping.  The downsides of using
   jsoup are you will first need to understand the Document Object Model (DOM)
-  and CSS Selectors. These are both useful to know.  o The upside of using jsoup
+  and CSS Selectors. These are both useful to know.  The upside of using jsoup
   is that it makes it much easier to find and select content from HTML (i.e.
   screen scrape). 
 
